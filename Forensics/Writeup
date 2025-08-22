@@ -1,0 +1,14 @@
+
+---
+
+## 🔹 Steps Taken
+1. Opened the provided `.pcap` file in **Wireshark**.
+2. Noticed the flag was split into **three segments** across different communications:
+   - Part 1 → found inside an ICMP payload.
+   - Part 2 → hidden within a DNS.   
+   - Part 3 → In TCP packet   
+3. Combined the three pieces in the required format.
+
+---
+
+## 🔹 Flag RIU{you_found_the_hidden_flag_in_pieces}
